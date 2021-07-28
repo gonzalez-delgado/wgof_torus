@@ -6,4 +6,4 @@ The goal of wgof_torus is to provide some practical approaches to perform two-sa
 1. Testing the equality of the one-dimensional marginals on the circle.
 2. Upper bounding p-values.
 
-The file test_functions.R includes the required functions to implement both approaches, whose documentation can be found in documentation.pdf. The file examples.R includes some reproducible examples, where the two techniques are implemented under some simple null and alternative hypothesis. 
+The file test_functions.R includes the required functions to implement both approaches, whose documentation can be found in documentation.pdf. The file examples.R includes some reproducible examples, where the two techniques are implemented under some simple null and alternative hypotheses. 
