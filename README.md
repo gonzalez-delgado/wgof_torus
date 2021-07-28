@@ -1,5 +1,5 @@
 # wgof_torus
-Goodness-of-fit testing approaches on the two-dimensional flat torus based on Wasserstein distance
+Goodness-of-fit testing approaches on the two-dimensional flat torus based on Wasserstein distance.
 
 The goal of wgof_torus is to provide some practical approaches to perform two-sample goodness-of-fit tests for measures on the two-dimensional flat torus based on Wasserstein distance. These techniques are introduced and fully detailed in [arXiv] and consist on:
 
