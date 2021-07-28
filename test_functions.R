@@ -119,7 +119,7 @@ test_1d_circ <- function(x, y, by_seq = 0.01, NR = 500, NS = 1000){
 # Upper bound test
 
 # Compute empirical Wasserstein distance on the torus
-wd_torus <- function(x1,y1,x2,y2, p = 2, ot_method = "networkflow") {
+wd_torus <- function(x1, y1, x2, y2, p = 2, ot_method = "networkflow") {
   
   grid <- expand.grid(1:length(x1), 1:length(x2))
   grid$x1 <- x1[grid[, 1]]
