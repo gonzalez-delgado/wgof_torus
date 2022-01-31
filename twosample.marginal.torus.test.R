@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' 
-#' n <- 30 # Sample size
+#' n <- 200 # Sample size
 #' 
 #' # Simulate the null distribution of the circle test statistic
 #' NR <- 100 
@@ -20,22 +20,8 @@
 #'  
 #'  x <- runif(n, 0,1)
 #'  y <- runif(n, 0,1)
-#'  
-#'  cut_point<-find.cutpoint.s1(x, y, messages = FALSE)$cut_point #Optimal origin
-#'  
-#'  x_left <- sort(x[which(x < cut_point)])
-#'  x_right <- sort(x[which(x >= cut_point)])
-#'  x_new <- c(x_right,x_left+1)
-#'  x_new <- x_new - cut_point 
-#'  
-#'  y_left <- sort(y[which(y < cut_point)])
-#'  y_right <- sort(y[which(y >= cut_point)])
-#'  y_new <- c(y_right, y_left + 1)
-#'  y_new <- y_new - cut_point 
-#'  
-#'  statistic <- stat.s1(x_new, y_new) 
-#'  
-#'  statistic
+#'  stat.s1(x, y) 
+#' 
 #' })
 #' 
 #' samp_1<-BAMBI::rvmcos(n, kappa1=1, kappa2=1, mu1=0, mu2=0)/(2*pi) # Bivariate von Mises distributions
