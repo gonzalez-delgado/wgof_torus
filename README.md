@@ -6,4 +6,4 @@ The goal of wgof_torus is to provide some practical approaches to perform two-sa
 1. Testing the equality of the one-dimensional marginals on the circle (file: twosample.marginal.torus.test.R),
 2. Upper bound p-values (file: twosample.ubound.torus.test.R).
 
-Each file includes details on how to implement the test, as well as some minimal reproducible examples.
+Each file includes details on how to implement the test, as well as some minimal reproducible examples. A Wasserstein two-sample goodness-of-fit test for measures supported on the circle is also included, in the file twosample.test.s1.R.
